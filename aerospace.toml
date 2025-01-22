@@ -200,3 +200,10 @@ run = ["layout floating"]
 [[on-window-detected]]
 if.app-id = "com.apple.finder"
 run = ["layout floating"]
+[[on-window-detected]]
+if.app-id = "com.apple.clock"
+run = ["layout floating"]
+[[on-window-detected]]
+if.app-id = "com.apple.preview"
+run = ["layout floating"]
+
